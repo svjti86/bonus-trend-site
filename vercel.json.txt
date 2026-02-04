@@ -1,6 +1,10 @@
 {
   "functions": {
-    "api/**/*": { "runtime": "nodejs" },
-    "pages/**/*": { "runtime": "nodejs" }
+    "pages/terms-and-conditions.tsx": {
+      "runtime": "nodejs18.x"
+    },
+    "pages/index.tsx": {
+      "runtime": "nodejs18.x"
+    }
   }
 }
