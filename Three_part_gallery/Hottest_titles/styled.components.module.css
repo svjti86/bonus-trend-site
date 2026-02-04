@@ -1,0 +1,153 @@
+.fivehot {
+  border-radius: 30px;
+  border-top: 2.5px solid hsla(0, 0%, 100%, 0.4);
+  border-bottom: 2.5px solid hsla(0, 0%, 100%, 0.4);
+  background: linear-gradient(
+    161deg,
+    hsla(0, 0%, 100%, 0.1),
+    hsla(0, 0%, 100%, 0.05) 101.7%
+  );
+  -webkit-backdrop-filter: blur(17.915000915527344px);
+  backdrop-filter: blur(17.915000915527344px);
+}
+.fivehotBanner {
+  padding: 28px 19px;
+  /* background: url(/newimages/beerfest.png) no-repeat 50%; */
+
+  /* Для поддержки в Safari можно задать -webkit-image-set */
+  background-image: -webkit-image-set(
+    url("/newimages/beerfest.avif") type("image/avif"),
+    url("/newimages/beerfest.webp") type("image/webp"),
+    url("/newimages/beerfest.png") 1x
+  );
+
+  /* Основное объявление */
+  background-image: image-set(
+    url("/newimages/beerfest.avif") type("image/avif"),
+    url("/newimages/beerfest.webp") type("image/webp"),
+    url("/newimages/beerfest.png") type("image/png")
+  );
+
+  background-size: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  border-radius: 30px;
+  min-height: 329px;
+  margin-bottom: 0;
+}
+.fivehotBanner h3,
+.fivehotBanner h3 .spanOrange {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+}
+.fivehotBanner h3 {
+  color: #fff;
+}
+.fivehotBanner h3 .spanOrange {
+  color: #ff8f1f;
+}
+.promo button {
+  font-size: 12px;
+  color: #000;
+}
+.btns {
+  width: 130%;
+  align-self: end;
+}
+.promo {
+  padding-left: 5px;
+  padding-right: 25px;
+  margin-right: -15px;
+  background: #7ad645;
+  border: 2px solid #ffffff18;
+  border-radius: 10px 0 0 10px;
+}
+.fivehotBanner p {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  background: linear-gradient(161deg, #ffffff1a, #ffffff0d 101.7%);
+  -webkit-backdrop-filter: blur(12.5px);
+  backdrop-filter: blur(12.5px);
+  padding: 10px;
+  border-radius: 15px;
+}
+.fivehot .ulList {
+  padding: 36px 0;
+  margin-left: 21px;
+  margin-right: 21px;
+}
+.ulList a,
+.ulList p {
+  font-size: 14px;
+  font-style: normal;
+  line-height: 20px;
+  color: #fff;
+}
+.luckyBtn {
+  background-color: #ff8f1f;
+}
+.ulList p {
+  color: #bebebe;
+  font-weight: 400;
+}
+.ulList li {
+  border-bottom: 1px solid #573e7d;
+  padding-bottom: 16px;
+  display: flex;
+}
+
+.fivehot .ulList .liImg {
+  fill: linear-gradient(
+    161deg,
+    hsla(0, 0%, 100%, 0.1),
+    hsla(0, 0%, 100%, 0.05) 101.7%
+  );
+  stroke-width: 2px;
+  stroke: #9d4eb3;
+  filter: drop-shadow(0 0 17.4px rgba(157, 78, 179, 0.5));
+  -webkit-backdrop-filter: blur(17.915000915527344px);
+  backdrop-filter: blur(17.915000915527344px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 70px;
+  max-width: 70px;
+  min-height: 70px;
+  max-height: 70px;
+  border-radius: 50%;
+  border: 2px solid hsla(0, 0%, 100%, 0.152);
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .fivehot > div {
+    width: 100% !important;
+  }
+  .fivehotBanner {
+    min-height: auto;
+    background: url(/newimages/beerfest-mob.png) no-repeat 50%;
+    background-size: auto;
+    background-size: cover;
+  }
+  .fivehotBanner h3,
+  .fivehotBanner h3 .spanOrange {
+    font-size: 22px;
+    line-height: 25px;
+    text-align: center;
+  }
+  .fivehotBanner p {
+    background: linear-gradient(161deg, #ffffff1a, #ffffff0d 101.7%);
+    -webkit-backdrop-filter: blur(12.5px);
+    backdrop-filter: blur(12.5px);
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 16px !important;
+    line-height: 20px !important;
+    text-align: center !important;
+  }
+}

@@ -1,0 +1,196 @@
+.emojis {
+  background-size: auto;
+  padding-top: 43px;
+}
+
+.emojis h3 {
+  color: #fff;
+  font-style: normal;
+  line-height: normal;
+  text-transform: uppercase;
+  font-size: 28px;
+}
+.emojis h3 span {
+  color: #ff8f1f;
+  font-size: 28px;
+}
+
+.cardThr {
+  position: relative;
+  width: 33%;
+  border-radius: 30px;
+}
+.relative {
+  background: #221d37;
+  margin: 3px 3px 0;
+  padding: 30px 0 5px;
+  border-radius: 30px 30px 0 0;
+}
+.cardThr img {
+  max-width: 204px;
+}
+.cardThr h3 {
+  font-size: 19px;
+}
+.cardThr p {
+  color: #fff;
+  padding: 0 5px;
+  font-size: 14px;
+  max-height: 42px;
+  overflow: hidden;
+}
+.cardLabel {
+  border-radius: 12px;
+  color: #fff;
+  position: absolute;
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  top: -20px;
+  left: 5%;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+}
+
+.cardThr:nth-child(1) .cardLabel {
+  background: linear-gradient(to bottom, #eae4ff, #5d3df6);
+}
+.cardThr:nth-child(2) .cardLabel {
+  background: linear-gradient(to bottom, #ffdb7d, #ff9f40);
+}
+.cardThr:nth-child(3) .cardLabel {
+  background: linear-gradient(to bottom, #e0fffa, #20b4a6);
+}
+.cardThr:nth-child(1) h3 {
+  color: #9e8cff;
+}
+.cardThr:nth-child(1) {
+  background: linear-gradient(to bottom, #eae4ff, #5d3df6);
+  z-index: 0;
+}
+.cardThr:nth-child(2) {
+  background: linear-gradient(to bottom, #ffdb7d, #ff9f40);
+  z-index: 1;
+  transform: scale(1.15);
+}
+.cardThr:nth-child(3) {
+  background: linear-gradient(to bottom, #e0fffa, #20b4a6);
+  z-index: 0;
+}
+.cardThr:nth-child(2) h3 {
+  color: #ff9f40;
+}
+.cardThr:nth-child(3) h3 {
+  color: #2fd4c4;
+}
+.btnsCh .btnChoose {
+  margin-top: 20px;
+}
+.btnChoose {
+  width: 91px;
+  height: 51px;
+  position: relative;
+  margin-right: 37px;
+}
+
+.btnChoose a {
+  background: url(/newimages/btn-choose.png) no-repeat 50%;
+  font-size: 18px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-weight: 400;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  transition: 0.3s;
+}
+.btnChoose::after {
+  content: "";
+  background: url(/newimages/btn-ch.png) no-repeat 50%;
+  position: absolute;
+  width: 119px;
+  height: 85px;
+  top: -20px;
+  left: -15px;
+  z-index: 0;
+}
+.btnChoose a:hover {
+  opacity: 0;
+}
+.emojis .mobNone {
+  display: none;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .emojis {
+    height: auto;
+  }
+  .emojis .main__container {
+    width: 100% !important;
+  }
+  .faceMob {
+    flex-direction: column;
+  }
+  .cardLabel {
+    width: 79%;
+  }
+  .btnsCh {
+    width: 100%;
+    margin-right: 0;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .btnsCh .btnChoose {
+    margin-right: auto;
+  }
+  .cardThr {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    border-radius: 20px;
+  }
+  .cardThr h3 {
+    display: none;
+  }
+  .cardThr a img {
+    min-width: 105px;
+  }
+  .cardThr:nth-child(2) {
+    transform: scale(1);
+  }
+  .btnCrd {
+    max-width: 42px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .relative {
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px 0 0 20px;
+    padding: 25px 5px 15px;
+    margin: 3px;
+  }
+  .relative div {
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+  }
+  .btnCrd a {
+    color: transparent;
+    position: absolute;
+    max-width: 42px;
+    width: 100%;
+    background: url(/newimages/play11.png) no-repeat center;
+  }
+}

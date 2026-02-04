@@ -1,0 +1,235 @@
+.btnPlay {
+  border-radius: 0px 0px 30px 30px;
+  background: #ff8f1f;
+  box-shadow: 0px -5px 30px 0px rgba(255, 143, 31, 0.3);
+  padding: 12px 0;
+  width: 100%;
+  line-height: 20px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff !important;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.randomTitle {
+  font-size: 21px !important;
+  margin-bottom: 0 !important;
+  line-height: 24px !important;
+}
+.cardSl {
+  border: 2px rgba(255, 255, 255, 0.3) solid;
+  border-radius: 32px;
+  padding-top: 10px;
+}
+.cardSl > div > .mt-3 {
+  display: flex;
+  padding: 0 10px;
+}
+/* .advnt p.text-white {
+  color: #000 !important;
+}
+.advnt .random-title {
+  color: #000 !important;
+} */
+.advnt {
+  border-radius: 30px;
+  border-top: 2.5px solid hsla(0, 0%, 100%, 0.3);
+  border-bottom: 2.5px solid hsla(0, 0%, 100%, 0.3);
+  background: linear-gradient(
+    161deg,
+    hsla(0, 0%, 100%, 0.1),
+    hsla(0, 0%, 100%, 0.05) 101.7%
+  );
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+  padding: 19px 28px !important;
+}
+.dated {
+  position: absolute;
+  color: #fff !important;
+  border-radius: 5px 5px 0 0;
+  max-width: 100px;
+  width: 100%;
+  left: calc(50% - 100px / 2);
+  top: -50px;
+  height: 50px;
+  background: #ff8f1f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.advent .cardSl p {
+  padding: 0 10px;
+  text-align: center;
+  color: #fff !important;
+  line-height: 18px !important;
+  font-weight: 400;
+  min-height: 54px;
+  max-height: 54px;
+  overflow: hidden;
+}
+
+.mt-33 {
+  margin-top: 0.75rem !important;
+}
+.not-yet {
+  color: #444548;
+  background: #dcdcdd;
+  box-shadow: none;
+}
+.not-yet:hover {
+  background: #dcdcdd;
+}
+.not-yet::before {
+  display: none;
+}
+.closed {
+  /* background-color: #dcdcdd;
+  background-image: url(/newimages/notact.png); */
+  background-repeat: no-repeat;
+  background-position: top center;
+  border-radius: 32px;
+}
+.nonoact {
+  width: 146px;
+  height: 73px;
+}
+.cardSlImg {
+  width: 146px;
+  height: 73px;
+  min-height: 73px !important;
+}
+.cardAdvent .dated {
+  background: #af2fdd !important;
+}
+.cardAdvent .btnPlay,
+.cardAdvent .btnPlay,
+.cardAdvent.activate .btnPlay {
+  background: #af2fdd !important;
+}
+#advent .mb-3.text-white {
+  color: #262139;
+}
+.cardAdvent:nth-child(2) .dated,
+.cardAdvent:nth-child(5) .dated {
+  background: linear-gradient(161deg, #6c37b1, #310877);
+}
+.cardAdvent:nth-child(2) .btnPlay,
+.cardAdvent:nth-child(5) .btnPlay {
+  background: linear-gradient(161deg, #6c37b1, #310877);
+}
+.cardAdvent:nth-child(3) .dated,
+.cardAdvent:nth-child(6) .dated {
+  background: linear-gradient(161deg, #088af6, #568df0);
+}
+.cardAdvent:nth-child(3) .btnPlay,
+.cardAdvent:nth-child(6) .btnPlay {
+  background: linear-gradient(161deg, #088af6, #568df0);
+}
+.cardAdvent:nth-child(11) .btnPlay,
+.cardAdvent:nth-child(12) .btnPlay,
+.cardAdvent:nth-child(13) .btnPlay,
+.cardAdvent:nth-child(14) .btnPlay,
+.cardAdvent:nth-child(15) .btnPlay {
+  background: linear-gradient(161deg, #088af6, #568df0);
+}
+.activate .btnPlay {
+  background: #ff8f1f !important;
+}
+
+.cardAdvent .nonoact {
+  background-image: url(/newimages/box_desk.png);
+}
+
+.closed .dated {
+  color: #444548;
+  background: #dcdcdd;
+}
+
+.opennow {
+  background: rgba(252, 253, 255, 0.852);
+  border-radius: 15px;
+}
+.advnt {
+  /* background-image: url(/newimages/adventcalendar_dark.png); */
+
+  background-image: -webkit-image-set(
+    url("/newimages/adventcalendar_dark.avif") type("image/avif"),
+    url("/newimages/adventcalendar_dark.webp") type("image/webp"),
+    url("/newimages/adventcalendar_dark.svg") 1x
+  );
+
+  /* Основное объявление */
+  background-image: image-set(
+    url("/newimages/adventcalendar_dark.avif") type("image/avif"),
+    url("/newimages/adventcalendar_dark.webp") type("image/webp"),
+    url("/newimages/adventcalendar_dark.svg") type("image/png")
+  );
+
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  border: 2.5px solid #ffffff4d;
+}
+.opened,
+.activate {
+  border-radius: 30px;
+}
+.closed {
+  border-radius: 30px;
+}
+.cardSl {
+  background: transparent !important;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .txtmob {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .mobMt16 {
+    margin-top: 1.5rem !important;
+  }
+  #advent .random-title {
+    font-size: 20px !important;
+    line-height: 24px !important;
+  }
+  .cardAdvent {
+    flex-basis: 48% !important;
+    /* overflow: hidden; */
+  }
+  .advnt {
+    padding: 12px !important;
+    background: url(/newimages/bgmomob2.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+  }
+  .opened,
+  .closed {
+    /* background: url("/newimages/mob-frame.png") top no-repeat; */
+    background-size: contain;
+    border-radius: 30px !important;
+  }
+
+  .nonoact {
+    max-width: 192px;
+    max-height: 96px;
+    background-size: cover;
+    width: 146px;
+    height: 73px;
+  }
+  .cardAdvent img {
+    width: 146px;
+    height: 73px;
+  }
+  .cardSl {
+    border-radius: 30px !important;
+    width: 100%;
+  }
+}

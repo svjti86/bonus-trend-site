@@ -1,0 +1,12 @@
+.rightC {
+  margin-left: 25px;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .rightC {
+    margin-left: 0;
+    margin-top: 15px;
+  }
+  .mobPt16 {
+    padding-top: 20px;
+  }
+}
