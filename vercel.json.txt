@@ -1,0 +1,6 @@
+{
+  "functions": {
+    "api/**/*": { "runtime": "nodejs" },
+    "pages/**/*": { "runtime": "nodejs" }
+  }
+}
