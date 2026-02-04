@@ -72,7 +72,7 @@ $cc2lang = [
         'LK'  => 'si',
 ];
 
-const OPENAI_KEY = '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';
+
 const OPENAI_URL = 'https://api.openai.com/v1/chat/completions';
 
 function gpt($text, $lang, &$err) {
